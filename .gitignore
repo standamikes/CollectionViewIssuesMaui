@@ -24,7 +24,7 @@ bld/
 [Ll]ogs/
 
 # local files
-*.user
+*.csproj.user
 .vs/
 
 # .NET Core
