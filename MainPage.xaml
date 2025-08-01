@@ -14,15 +14,14 @@
     SelectionChanged="CollectionView_SelectionChanged"
     SelectionMode="Single">
     <CollectionView.ItemsLayout>
-      <LinearItemsLayout Orientation="Vertical" />
+      <!--<LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />-->
+      <GridItemsLayout Orientation="Vertical" Span="2" />
     </CollectionView.ItemsLayout>
     <CollectionView.ItemTemplate>
       <DataTemplate x:DataType="x:String">
         <Border StrokeShape="{RoundRectangle CornerRadius=10}">
           <HorizontalStackLayout>
-            <Border>
-              <Image HeightRequest="100" Source="{Binding .}" />
-            </Border>
+            <Image HeightRequest="100" Source="{Binding .}" />
             <Label Text="{Binding .}" />
           </HorizontalStackLayout>
         </Border>
