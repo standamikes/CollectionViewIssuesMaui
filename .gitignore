@@ -23,6 +23,10 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# local files
+*.user
+.vs/
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
@@ -43,12 +47,3 @@ CodeCoverage/
 
 # MSBuild Binary and Structured Log
 *.binlog
-
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-
-# NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
